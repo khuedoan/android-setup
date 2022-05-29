@@ -3,8 +3,9 @@
 Configuration as Code for my Android phones:
 
 - [ ] Evolution X on Xiaomi Redmi K20 Pro
-- [ ] One UI on Samsung Galaxy S22 Plus
-- [ ] GrapheneOS on Google Pixel 6 Pro
+- [ ] Android Go on Nokia 6.1
+<!-- - [ ] One UI on Samsung Galaxy S22 Plus -->
+<!-- - [ ] GrapheneOS on Google Pixel 6 Pro -->
 
 Features:
 
@@ -27,11 +28,11 @@ Features:
 - Enable [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
 - Connect to PC
 
-### Update configuration
+### Update config files
 
 Checkout the following files:
 
-- `defaults/main.yml`
+- `inventories/main.yml`
 
 ## Installation
 
@@ -44,3 +45,7 @@ make
 ## Post-installation
 
 - Disable ADB on the phone
+
+## Acknowledgements
+
+- TODO
